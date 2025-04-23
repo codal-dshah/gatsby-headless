@@ -20,7 +20,9 @@
 wp-config.php
 
 # Example themes
-/wp-content/themes/headless-wp*/
+/wp-content/themes/
+!/wp-content/themes/headless-wp
+/gatsby-site/.cache
 
 # Uploads
 /wp-content/uploads/
