@@ -1,4 +1,4 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
+# WordPress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
 # Core
@@ -6,33 +6,34 @@
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
 */
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+/wp-content/
+wp-admin/
+wp-includes/
+index.php
+license.txt
+readme.html
+wp-*.php
+xmlrpc.php
 
 # Configuration
 wp-config.php
 
-# Example themes
-wp-content/themes/*
-
 # Uploads
-/wp-content/uploads/
+wp-content/uploads/
 
 # Log files
 *.log
 
 # htaccess
-/.htaccess
-/package.json
-/package-lock.json
-/eslint.config.mjs
+.htaccess
 
-!/gatsby-site
+# Ignore root-level project files you don’t want in Git
+package.json
+package-lock.json
+eslint.config.mjs
+
+# Gatsby project tracking
+!gatsby-site/
+# Specifically include its node_modules and public folders
+!gatsby-site/node_modules/
+!gatsby-site/public/
