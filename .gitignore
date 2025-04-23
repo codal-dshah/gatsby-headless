@@ -9,7 +9,6 @@
 /wp-content/index.php
 /wp-content/languages
 /wp-content/plugins/index.php
-/wp-content/themes/index.php
 /wp-includes/
 /index.php
 /license.txt
@@ -21,10 +20,7 @@
 wp-config.php
 
 # Example themes
-/wp-content/themes/twenty*/
-
-# Example plugin
-/wp-content/plugins/hello.php
+/wp-content/themes/headless-wp*/
 
 # Uploads
 /wp-content/uploads/
@@ -34,15 +30,8 @@ wp-config.php
 
 # htaccess
 /.htaccess
+/package.json
+/package-lock.json
+/node_modules
+/eslint.config.mjs
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
-
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
